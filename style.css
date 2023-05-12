@@ -1,0 +1,69 @@
+body{
+    font-size: 13px;
+    background-color:#01b7f3;
+}
+.container{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.email-signature{
+    width: 750px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.email-signature .logo img{
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+hr{
+    background-color:#01b7f3;
+}
+.email-signature .image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #01b7f3;
+    margin: 0 auto;
+    display: block;
+}
+.email-signature .right-col{
+    background-color: #eaf5f8;
+    border-radius: 60px 0 0 60px;
+    padding: 20px 30px;
+    border-left: 10px solid #01b7f3;
+}
+.email-signature .right-col h3{
+    color: #01b7f3;
+}
+.email-signature .right-col a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+}
+.email-signature .right-col .icon-bg{
+    background-color: #01b7f3;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+.email-signature .right-col .icon-bg i{
+    color: white;
+}
+@media (max-width:768px){
+    .email-signature{
+        width: auto;
+    }
+    .email-signature .right-col{
+        margin-top: 10px;
+    }
+}
